@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+html,body{    
+    font-family: 'Inter', sans-serif;
+}
+section{
+    color: #FF686B;
+    padding: 0 0.75rem;
+}
+
+/*Navbar*/
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li a{
+    padding: 0.5rem;
+}
+
+#navbar ul li a:hover{
+    background: #fff;
+    border-radius: 4px;
+    color: #84DCC6;
+    font-weight:bold;
+}
+
+/*Home Section*/
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid #780000;
+    background-image: url("/LandingPage/images/back-gif.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 25%;
+    border:2px solid #780000;
+}
+
+#home .name h2{
+    margin-bottom: 0.75rem;
+}
+
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+}
+
+#home .icon{
+    margin-left: 1em;
+}
+
+/*Languages&Tools Section*/
+#tools{
+    padding:0.5rem;
+}
+
+.tools-item{    
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Education Section*/
+#education{
+    padding: 1rem;
+}
+#education .items{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#education .items .item{
+    width: 50%;
+    text-align: center;    
+}
+
+#education .items .item:hover{
+    color:#84DCC6;
+}
+.leclist{
+    padding-top: 0.5rem;
+}
+
+.leclist li{    
+    display: flex; 
+    justify-content: center;
+    align-items: center;   
+    text-align: left;    
+}
+
+#experiences{
+    padding: 0.5rem;
+    color:#fff;
+}
+
+#hobbies{
+    padding: 1rem;
+}
+
+#hobbies .hobby-img img{
+    width: 200px;
+    height:200px;
+    margin-right: 0.5rem;    
+    border-radius: 5px;   
+    
+}
+
+.hobby-img{
+    position: relative;    
+}
+
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    
+}
+
+.hobbies .hobby{
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;    
+}
+
+.hobbies .hobby:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.hobby span{
+    background-color: aqua;
+    border-radius: 4px;
+    position: absolute;
+    top:0;
+    left:0;
+    font-weight: 700;
+    
+}
+
+.hobby .description{
+    padding-top: 3rem;
+}
+
+#contact{
+    color:#fff;    
+}
+
+#contact .container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact ul li{
+    list-style-type: none;
+}
+
+#contact ul li i{
+    margin-right: 1em;
+}
+
+.form-group label{
+    display: block;
+}
+
+.form-control{
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 5px;
+}
